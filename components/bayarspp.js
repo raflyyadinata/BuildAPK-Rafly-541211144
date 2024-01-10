@@ -31,7 +31,7 @@ export default function Bayar({ navigation }) {
     <View style={styles.container}>
 
 
-      <Text style={styles.text3}>>Pilih metode pembayaran:</Text>
+      <Text style={styles.text3}>Pilih metode pembayaran:</Text>
       <DropDownPicker
         items={[
           { label: 'Option 1', value: 'option1' },
